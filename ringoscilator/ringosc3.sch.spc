@@ -1,5 +1,5 @@
 ** sch_path: /home/afgar/ringoscilator/ringosc3.sch
-.subckt ringosc3 vdd gnd out
+.subckt ringosc3 vdd out gnd
 *.PININFO vdd:B gnd:B out:O
 x4 vdd out net2 gnd prainverter
 x1 vdd net2 net1 gnd prainverter
